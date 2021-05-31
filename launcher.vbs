@@ -19,7 +19,7 @@ Sub ScatterBrained()
 
 	'....continue....
 
-	oShell.run "cmd /c " + fullpath + " " + full_file_path
+	oShell.run "cmd /c " + fullpath + " " + full_file_path, 0, True
 	Set oShell = Nothing
 	
 End Sub
